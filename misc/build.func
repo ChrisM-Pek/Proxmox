@@ -103,7 +103,7 @@ pve_check() {
     exit
 fi
 }
-
+#
 # This function checks the system architecture and exits if it's not "amd64".
 arch_check() {
   if [ "$(dpkg --print-architecture)" != "amd64" ]; then
